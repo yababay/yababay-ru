@@ -1,0 +1,27 @@
+section header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+section header nav a, section header nav a:visited{
+    text-decoration: none;
+    transition: color .2s linear;
+    color: black;
+    width: 90px;
+    text-align: right;
+}
+
+section header nav a:hover{
+    color: darkgray;
+}
+
+section header img {
+    height: 60px;
+    scale: auto;
+}

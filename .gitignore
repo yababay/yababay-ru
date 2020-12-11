@@ -1,0 +1,7 @@
+/.vscode
+/.github
+/node_modules
+package.json
+yarn.lock
+index.js
+
